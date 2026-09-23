@@ -3,7 +3,7 @@ services:
     build: .
     container_name: aws-security-cbt
     ports:
-      - "${CBT_PORT:-3080}:3000"
+      - "${CBT_PORT:-3040}:3000"
     volumes:
       - cbt-data:/app/storage
     restart: unless-stopped

@@ -8,7 +8,7 @@ PDF의 256문제를 모바일에서 풀 수 있는 단일 사용자용 CBT 웹�
 docker compose up -d --build
 ```
 
-브라우저에서 `http://localhost:3080`에 접속합니다. 같은 Wi-Fi의 모바일 기기에서는 `http://컴퓨터의-IP:3080`으로 접속할 수 있습니다.
+브라우저에서 `http://localhost:3040`에 접속합니다. 같은 Wi-Fi의 모바일 기기에서는 `http://컴퓨터의-IP:3040`으로 접속할 수 있습니다.
 
 다른 포트를 사용하려면 PowerShell에서 `$env:CBT_PORT='원하는 포트'`를 먼저 설정하고 실행합니다.
 
