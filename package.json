@@ -1,0 +1,13 @@
+{
+  "name": "aws-security-cbt",
+  "version": "1.0.0",
+  "private": true,
+  "description": "AWS Security Specialty 256문제 모바일 CBT",
+  "scripts": {
+    "start": "node server.js",
+    "check": "node --check server.js && node --check public/app.js"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
